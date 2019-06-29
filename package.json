@@ -1,6 +1,6 @@
 {
-  "name": "template-typescript",
-  "description": "New TypeScript project",
+  "name": "template-cdk-app",
+  "description": "New CDK application",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -12,8 +12,12 @@
     "name": "Sami Kukkonen",
     "email": "sami@samikukkonen.fi"
   },
+  "dependencies": {
+    "@aws-cdk/core": "0.36.0"
+  },
   "license": "MIT",
   "devDependencies": {
+    "aws-cdk": "0.36.0",
     "typescript": "3.5.2"
   }
 }
