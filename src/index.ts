@@ -1,3 +1,5 @@
+import "source-map-support/register"
+
 import { App } from "@aws-cdk/core"
 import { ExampleStack } from "./ExampleStack"
 
