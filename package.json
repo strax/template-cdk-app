@@ -5,15 +5,19 @@
   "version": "0.0.0",
   "scripts": {
     "build": "tsc --build",
+    "synth": "cdk synth --output target/cloud-assembly",
+    "diff": "cdk diff -a target/cloud-assembly",
+    "deploy": "cdk deploy -a target/cloud-assembly",
     "clean": "rm -rf target"
   },
-  "main": "target/index.js",
+  "main": "target/runtime/index.js",
   "author": {
     "name": "Sami Kukkonen",
     "email": "sami@samikukkonen.fi"
   },
   "dependencies": {
-    "@aws-cdk/core": "0.36.0"
+    "@aws-cdk/core": "0.36.0",
+    "@aws-cdk/aws-s3": "0.36.0"
   },
   "license": "MIT",
   "devDependencies": {

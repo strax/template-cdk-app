@@ -2,6 +2,40 @@
 # yarn lockfile v1
 
 
+"@aws-cdk/aws-events@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-events/-/aws-events-0.36.0.tgz#d22aae356e471316054c430aad381d5e50641976"
+  integrity sha512-8HpgNCt1OXcPX27oWrXZ4SdJWpd6OTqmO2EvwlCUm5wJkDih+eeM6HFfNw6tPEj7qosM8L6to5AyxN4vnplnLw==
+  dependencies:
+    "@aws-cdk/aws-iam" "^0.36.0"
+    "@aws-cdk/core" "^0.36.0"
+
+"@aws-cdk/aws-iam@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-iam/-/aws-iam-0.36.0.tgz#2c019bdb16cfcd3313ad6ef63a5189b72ff05fb4"
+  integrity sha512-yXb8hVeJPC7pWi4A/UIf9dSm+VRZkGRkrLeM61cSjZOL9ulbz4MHqeS9YIL5ELqIKv0VzJmTuQLIWXO2dc4wAw==
+  dependencies:
+    "@aws-cdk/core" "^0.36.0"
+    "@aws-cdk/region-info" "^0.36.0"
+
+"@aws-cdk/aws-kms@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-kms/-/aws-kms-0.36.0.tgz#db1c326f4409198320e7cf8df5d62e1524744c5f"
+  integrity sha512-09ubtkI7MxjwmtbuMHzI79JIFwVaqAP0h60PShLYR7UAvKQYeumvk6//Ix8d40TNDxlNBe+QEATdbD2FSK9vTg==
+  dependencies:
+    "@aws-cdk/aws-iam" "^0.36.0"
+    "@aws-cdk/core" "^0.36.0"
+
+"@aws-cdk/aws-s3@0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-s3/-/aws-s3-0.36.0.tgz#cfa480d9bcaa5eca78d715557653608ba8b88c72"
+  integrity sha512-c6ObcIZpui6o+gLLjDpNrBlPB0sDLQLUVEVVFyBGPgV/wUQnSHzNfTgtO5xR/oVTx7b58eU/hLlJ8DEJvcIEXA==
+  dependencies:
+    "@aws-cdk/aws-events" "^0.36.0"
+    "@aws-cdk/aws-iam" "^0.36.0"
+    "@aws-cdk/aws-kms" "^0.36.0"
+    "@aws-cdk/core" "^0.36.0"
+
 "@aws-cdk/cfnspec@^0.36.0":
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-0.36.0.tgz#f8788494b88196e6143712bdc202ffae2c68f1fb"
@@ -23,7 +57,7 @@
     string-width "^4.1.0"
     table "^5.4.1"
 
-"@aws-cdk/core@0.36.0":
+"@aws-cdk/core@0.36.0", "@aws-cdk/core@^0.36.0":
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-0.36.0.tgz#4982467a6a6d5d62cd185663f985529ad2d15e96"
   integrity sha512-5oEVetyivHEJAA5NVozUy/kaLRL2nOYdklGIlSWdCrrYp7TZ75wDi3WYf6IKwCI5eUX3zylBgj91gn7OWQ+krg==
