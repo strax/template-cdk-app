@@ -1,0 +1,19 @@
+{
+  "name": "template-typescript",
+  "description": "New TypeScript project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rm -rf target"
+  },
+  "main": "target/index.js",
+  "author": {
+    "name": "Sami Kukkonen",
+    "email": "sami@samikukkonen.fi"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "3.5.1"
+  }
+}
